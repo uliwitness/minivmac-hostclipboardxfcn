@@ -2,6 +2,8 @@
 
 HyperCard XFCN for use with the Mini vMac emulator that lets you read and/or write the host computer's clipboard from inside the emulator.
 
+**Note:** While this code was developed and compiled on Mini vMac under System 6.0.8, the files were packaged up for GitHub on MacOS 9, so the version of StuffIt used for compressing the `.sit` files may be too new for unpacking them in vMac directly.
+
 ## Syntax
 
 Once you have built the XFCN using the included Think C 6 project as a code resource, you use it from inside HyperCard in one of two forms:
