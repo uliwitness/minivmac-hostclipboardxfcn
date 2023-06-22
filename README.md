@@ -2,7 +2,19 @@
 
 HyperCard XFCN for use with the Mini vMac emulator that lets you read and/or write the host computer's clipboard from inside the emulator.
 
-# License
+## Syntax
+
+Once you have built the XFCN using the included Think C 6 project as a code resource, you use it from inside HyperCard in one of two forms:
+
+    put hostClipboard() into copiedText
+
+Retrieves whatever is on the host clipboard right now and stores it in the variable `copiedText`.
+
+    get hostClipboard("New text you want to copy.")
+
+Copies the given string (in this example `New text you want to copy.`) to the host's clipboard, so you can paste it outside the emulator.
+
+## License
 
 XFCN written by Uli Kusterer, based on the ClipIn/ClipOut DAs by Paul C. Pratt.
 
